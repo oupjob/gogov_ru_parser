@@ -1,0 +1,48 @@
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.9) Gecko/20100101 Goanna/4.2 PaleMoon/28.5.0
+Mozilla/5.0 (Windows NT 5.1; rv:60.9) Goanna/4.1 PaleMoon/28.5.0a1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.6) Gecko/20150723 Firefox/31.9 PaleMoon/25.6.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:25.6) Gecko/20150723 PaleMoon/25.6.0
+Mozilla/5.0 (Windows NT 5.2; rv:25.5) Gecko/20150609 Firefox/31.9 PaleMoon/25.5.0
+Mozilla/5.0 (Windows NT 6.1; rv:25.5) Gecko/20150609 Firefox/31.9 PaleMoon/25.5.0
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:24.0) Gecko/20140208 Firefox/24.0 PaleMoon/24.3.2
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20130308 Firefox/19.0 PaleMoon/19.0.2
+Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20120919 Firefox/15.1.1 PaleMoon/15.1.1
+Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20120911 Firefox/15.1 PaleMoon/15.1
+Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20120911 Firefox/15.1 PaleMoon/15.1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120911 Firefox/15.1 PaleMoon/15.1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:15.0) Gecko/20120919 Firefox/15.1.1-x64 PaleMoon/15.1.1-x64
+Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/20120919 Firefox/15.1.1-x64 PaleMoon/15.1.1-x64
+Mozilla/5.0 (Windows NT 5.1; rv:15.0) Gecko/20120819 Firefox/15.0 PaleMoon/15.0
+Mozilla/5.0 (Windows NT 6.0; rv:15.0) Gecko/20120819 Firefox/15.0 PaleMoon/15.0
+Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20120819 Firefox/15.0 PaleMoon/15.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120819 Firefox/15.0 PaleMoon/15.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:15.0) Gecko/20120819 Firefox/15.0-x64 PaleMoon/15.0-x64
+Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:15.0) Gecko/20120819 Firefox/15.0-x64 PaleMoon/15.0-x64
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:15.0) Gecko/20120912 Firefox/15.1-x64 PaleMoon/15.1-x64
+Mozilla/5.0 (Windows NT 5.1; rv:12.3) Gecko/20120714 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 5.1; rv:12.3) Gecko/20120717 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 6.0; rv:12.3) Gecko/20120717 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 6.1; rv:12.3) Gecko/20120714 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 6.1; rv:12.3) Gecko/20120717 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.3) Gecko/20120717 Firefox/12.3 PaleMoon/12.3
+Mozilla/5.0 (Windows NT 5.1; rv:12.2.1) Gecko/20120616 Firefox/12.2.1 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 5.1; rv:12.2.1) Gecko/20120616 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 6.1; rv:12.2.1) Gecko/20120616 Firefox/12.2.1 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.2.1) Gecko/20120616 Firefox/12.2.1 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.2.1) Gecko/20120616 Firefox/13.0 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.2.1) Gecko/20120616 Firefox/13.0.1 PaleMoon/12.2.1
+Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20120605 Firefox/12.2 Palemoon/12.2
+Mozilla/5.0 (Windows NT 5.1; rv:12.2) Gecko/20120605 Firefox/12.2 PaleMoon/12.2
+Mozilla/5.0 (Windows NT 6.0; WOW64; rv:12.2) Gecko/20120605 Firefox/12.2 PaleMoon/12.2
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:12.2) Gecko/20120605 Firefox/12.2 PaleMoon/12.2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:12.2.1) Gecko/20120616 Firefox/12.2.1-x64 PaleMoon/12.2.1-x64
+Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:12.2.1) Gecko/20120616 Firefox/12.2.1-x64 PaleMoon/12.2.1-x64
+Mozilla/5.0 (Windows NT 6.0; rv:12.0) Gecko/20120424 Firefox/12.0 PaleMoon/12.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:12.2) Gecko/20120606 Firefox/12.2-x64 PaleMoon/12.2-x64
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:12.3) Gecko/20120714 Firefox/12.3-x64 PaleMoon/12.3-x64
+Mozilla/5.0 (Windows NT 5.1; rv:12.3) Gecko/20120728 Firefox/12.3r2 PaleMoon/12.3r2
+Mozilla/5.0 (Windows NT 6.0; rv:12.3) Gecko/20120728 Firefox/12.3r2 PaleMoon/12.3r2
+Mozilla/5.0 (Windows NT 6.1; rv:12.3) Gecko/20120728 Firefox/12.3r2 PaleMoon/12.3r2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.3) Gecko/20120728 Firefox/12.3r2 PaleMoon/12.3r2
+Mozilla/5.0 (Windows NT 6.0; rv:11.0) Gecko/20120319 Firefox/11.0 PaleMoon/11.0
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100206 Palemoon/3.6.0.5

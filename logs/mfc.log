@@ -1,0 +1,1878 @@
+Started Parser, base dpartmemt type (region list) URL: https://gogov.ru/mfc
+
+Database settings:
+{
+    "engine": "mysql+mysqlconnector",
+    "user": "admin",
+    "host": "localhost",
+    "port": "3306",
+    "password": "multiC",
+    "db_name": "gogov_ru"
+}
+
+HTTPS Proxy List:
+[
+    "207.228.235.54:8080",
+    "52.29.142.92:3128",
+    "18.140.1.108:8080",
+    "35.237.32.72:3128",
+    "103.246.249.47:8080",
+    "36.83.71.110:3128",
+    "190.196.15.43:3128",
+    "138.201.223.250:31288",
+    "46.225.242.246:1080",
+    "138.128.117.162:80",
+    "185.177.57.16:8080",
+    "119.192.195.83:8080",
+    "205.202.253.120:8080",
+    "196.37.143.202:8080",
+    "34.253.225.235:8080",
+    "70.37.111.187:80",
+    "62.141.86.173:8080",
+    "95.168.185.183:8080",
+    "167.71.161.102:8080",
+    "200.255.122.174:8080"
+]
+
+Useragent List:
+[
+    "Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 6.0.1; SM-G935S Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+]
+BaseRegionListParser: Starting: parsing region list from URL: "https://gogov.ru/mfc"
+ProxySwitchRequest: switched to 1's proxy: 52.29.142.92:3128
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Москва, src_url: https://gogov.ru/msk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Санкт-Петербург, src_url: https://gogov.ru/spb/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Алтай (республика), src_url: https://gogov.ru/alt/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Алтайский край, src_url: https://gogov.ru/altkr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Амурская область, src_url: https://gogov.ru/amr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Архангельская область, src_url: https://gogov.ru/arkh/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Астраханская область, src_url: https://gogov.ru/ast/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Башкортостан (республика), src_url: https://gogov.ru/bash/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Белгородская область, src_url: https://gogov.ru/blg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Брянская область, src_url: https://gogov.ru/brn/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Бурятия (республика), src_url: https://gogov.ru/brt/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Владимирская область, src_url: https://gogov.ru/vld/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Волгоградская область, src_url: https://gogov.ru/vlg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Вологодская область, src_url: https://gogov.ru/vlgd/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Воронежская область, src_url: https://gogov.ru/vrzh/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Еврейская автономная область, src_url: https://gogov.ru/eao/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Забайкальский край, src_url: https://gogov.ru/zbk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ивановская область, src_url: https://gogov.ru/ivnv/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Иркутская область, src_url: https://gogov.ru/irk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Калининградская область, src_url: https://gogov.ru/klg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Калмыкия (республика), src_url: https://gogov.ru/klm/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Калужская область, src_url: https://gogov.ru/klga/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Камчатский край, src_url: https://gogov.ru/kmch/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Карелия (республика), src_url: https://gogov.ru/krl/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Кемеровская область, src_url: https://gogov.ru/kmr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Кировская область, src_url: https://gogov.ru/krv/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Коми (республика), src_url: https://gogov.ru/kmi/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Костромская область, src_url: https://gogov.ru/ktm/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Краснодарский край, src_url: https://gogov.ru/krd/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Красноярский край, src_url: https://gogov.ru/kry/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Курганская область, src_url: https://gogov.ru/krg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Курская область, src_url: https://gogov.ru/krsk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ленинградская область, src_url: https://gogov.ru/lo/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Липецкая область, src_url: https://gogov.ru/lpts/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Магаданская область, src_url: https://gogov.ru/mgd/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Марий Эл (республика), src_url: https://gogov.ru/mrl/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Мордовия (республика), src_url: https://gogov.ru/mrd/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Московская область, src_url: https://gogov.ru/mo/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Мурманская область, src_url: https://gogov.ru/mrm/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ненецкий автономный округ, src_url: https://gogov.ru/nao/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Нижегородская область, src_url: https://gogov.ru/ngo/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Новгородская область, src_url: https://gogov.ru/nvg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Новосибирская область, src_url: https://gogov.ru/nso/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Омская область, src_url: https://gogov.ru/omsk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Оренбургская область, src_url: https://gogov.ru/orb/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Орловская область, src_url: https://gogov.ru/orl/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Пензенская область, src_url: https://gogov.ru/pnz/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Пермский край, src_url: https://gogov.ru/prm/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Приморский край, src_url: https://gogov.ru/prim/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Псковская область, src_url: https://gogov.ru/psk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ростовская область, src_url: https://gogov.ru/rst/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Рязанская область, src_url: https://gogov.ru/rzn/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Самарская область, src_url: https://gogov.ru/smr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Саратовская область, src_url: https://gogov.ru/srt/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Саха (республика), src_url: https://gogov.ru/yak/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Сахалинская область, src_url: https://gogov.ru/skhl/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Свердловская область, src_url: https://gogov.ru/svo/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Смоленская область, src_url: https://gogov.ru/sml/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ставропольский край, src_url: https://gogov.ru/srp/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Тамбовская область, src_url: https://gogov.ru/tmb/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Татарстан (республика), src_url: https://gogov.ru/rt/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Тверская область, src_url: https://gogov.ru/tvr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Томская область, src_url: https://gogov.ru/tms/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Тульская область, src_url: https://gogov.ru/tla/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Тыва (республика), src_url: https://gogov.ru/tva/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Тюменская область, src_url: https://gogov.ru/tmn/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Удмуртия (республика), src_url: https://gogov.ru/udm/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ульяновская область, src_url: https://gogov.ru/uln/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Хабаровский край, src_url: https://gogov.ru/khbr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Хакасия (республика), src_url: https://gogov.ru/khks/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ханты-Мансийский автономный округ, src_url: https://gogov.ru/hmao/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Челябинская область, src_url: https://gogov.ru/chlb/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Чувашия (республика), src_url: https://gogov.ru/chvsh/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Чукотский автономный округ, src_url: https://gogov.ru/chuk/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ямало-Ненецкий автономный округ, src_url: https://gogov.ru/yam/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ярославская область, src_url: https://gogov.ru/yar/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Крым (республика), src_url: https://gogov.ru/crimea/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Севастополь, src_url: https://gogov.ru/sev/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Адыгея (республика), src_url: https://gogov.ru/adg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Дагестан (республика), src_url: https://gogov.ru/dg/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Ингушетия (республика), src_url: https://gogov.ru/ing/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Кабардино-Балкария (республика), src_url: https://gogov.ru/kbr/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Карачаево-Черкесия (республика), src_url: https://gogov.ru/krch/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Северная Осетия (республика), src_url: https://gogov.ru/ost/mfc
+BaseRegionListParser: Parsed Region Tree Item: 
+TreeItem: name: Чечня (республика), src_url: https://gogov.ru/che/mfc
+BaseRegionListParser: Completed: parsed 86 regions to list from URL: "https://gogov.ru/mfc"
+BaseDepartmentListParser: Started: Department list parsing from URL: "https://gogov.ru/msk/mfc", Region: "Москва"
+BaseDepartmentListParser: Starting: parsing primary page of department list from URL: "https://gogov.ru/msk/mfc", Region: "Москва"
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Многофункциональный центр, src_url: https://gogov.ru/mfc/msk/m569685
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178071
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178072
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178073
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178074
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130635
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130634
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ясенево ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61559
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Донского района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61556
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Зябликово ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61557
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Обручевского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61558
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Тверского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61554
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Якиманка ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61555
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Роговское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61552
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Щаповское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61553
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ ГО Троицк ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61548
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Вороновское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61549
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Киевский ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61550
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Новофедоровское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61551
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Головинского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m61545
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Лосиноостровского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61546
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Митино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61547
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Мосрентген НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61541
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Рязановское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61542
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Сосенское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61543
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Филимонковское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61544
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Московский НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61540
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Десеновское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61538
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Кокошкино НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61539
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Сокольники ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61534
+BaseDepartmentListParser: Completed: Parsing primary page of department list from URL: "https://gogov.ru/msk/mfc", Region: Москва
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Дорогомилово ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61535
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ ГО Щербинка НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61536
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Воскресенское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61537
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Преображенское ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61533
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Черемушки ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27682
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Южное Бутово ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27683
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Коньково ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27678
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Котловка ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27679
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Северное Бутово ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27680
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Теплый Стан ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27681
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Южнопортового района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27673
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Академического района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27674
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Гагаринского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27675
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Ломоносовского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27676
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Зюзино ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27677
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Некрасовка ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27669
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Печатники ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27670
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Текстильщики ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27671
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Рязанского района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27672
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Капотня ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27664
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Кузьминки ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27665
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Люблино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27667
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Марьино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27668
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ районов Нижегородский и Лефортово района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27662
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Выхино-Жулебино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27663
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Северное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27659
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Центральное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27660
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Южное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27661
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Нагатинский Затон ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27655
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Орехово-Борисово Северное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27656
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Орехово-Борисово Южное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27657
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Царицыно ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27658
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Нагорного района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27649
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Бирюлево Восточное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27650
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Бирюлево Западное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27651
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Братеево ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27652
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Москворечье-Сабурово ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27653
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Замоскворечье ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27645
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Хамовники ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27646
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Таганского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27647
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Даниловского района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27648
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Красносельского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27641
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Мещанского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27642
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Пресненского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27643
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Арбат ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27644
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Хорошево-Мневники СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27637
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Щукино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27638
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Южное Тушино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27639
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Басманного района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27640
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Ярославского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27632
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Куркино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27633
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Покровское-Стрешнево СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27634
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Строгино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27636
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Свиблово СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27628
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Северное Медведково СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27629
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Северный СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27630
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Южное Медведково СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27631
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Лианозово СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27623
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Марфино СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27624
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Отрадное СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27626
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ростокино СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27627
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Бабушкинского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27619
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Бутырского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27620
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Останкинского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27621
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Бибирево СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27622
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Алексеевского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27617
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Алтуфьевского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27618
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Савеловского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27614
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Тимирязевского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27615
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Хорошевского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27616
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Беговой САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27607
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Западное Дегунино САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27609
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Коптево САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27610
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Левобережный САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27611
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Сокол САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27612
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Старое Крюково ЗелАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27601
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Бескудниковского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27602
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Войковского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27603
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Дмитровского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27604
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Аэропорт САО города Москвы", src_url: https://gogov.ru/mfc/msk/m27606
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Фили-Давыдково ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27596
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Крюково ЗелАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27597
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Матушкино ЗелАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27598
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Савелки ЗелАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27599
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Силино ЗелАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27600
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Проспект Вернадского ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27591
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Раменки ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27592
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Солнцево ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27593
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Тропарево-Никулино ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27594
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Филевский Парк ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27595
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Крылатское ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27587
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ново-Переделкино ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27589
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Очаково-Матвеевское ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27590
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Перово ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27582
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Северное Измайлово ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27583
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Соколиная Гора ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27584
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Можайского района ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27585
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Внуково ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27586
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Косино-Ухтомский ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27578
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ районов Богородское и Метрогородок ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27579
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Новогиреево ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27580
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Новокосино ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27581
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Восточный ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27574
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Гольяново ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27575
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ивановское ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27576
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Измайлово ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27577
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Вешняки ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27572
+BaseDepartmentListParser: Parsed basic data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Восточное Измайлово ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27573
+BaseDepartmentListParser: Completed: Parsing loadmore pages of department list from URL: "https://gogov.ru/msk/mfc", Region: Москва
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Многофункциональный центр, src_url: https://gogov.ru/mfc/msk/m569685
+"fullname" : "Государственное бюджетное учреждение города Москвы "Многофункциональный центр предоставления государственных услуг города Москвы""
+"county" : "ЦАО"
+"district" : "Тверской"
+"email" : "['md@mfc.mos.ru']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Вознесенский переулок, 22"
+"post_index" : "125009"
+"operating_mode" : "
+понедельник-четверг: с 08:00 до 17:00, перерыв: с 12:00 до 12:45
+пятница: с 08:00 до 15:45, перерыв: с 12:00 до 12:45
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178071
+"county" : "ТАО"
+"district" : "Красная Пахра (село)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 21"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+"coverage" : "['Михайлово-Ярцевское (поселение)']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178072
+"county" : "ТАО"
+"district" : "Курилово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Центральная улица, 7"
+"post_index" : "125430"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178073
+"county" : "НАО"
+"district" : "Марушкино (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, улица Липовая Аллея, 5"
+"post_index" : "108809"
+"operating_mode" : "
+понедельник: с 10:00 до 19:00, перерыв: с 13:30 до 14:15
+среда: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178074
+"county" : "НАО"
+"district" : "Крекшино (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва"
+"operating_mode" : "
+вторник: с 10:00 до 19:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130635
+"county" : "ЮЗАО"
+"district" : "Южное Бутово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романова Екатерина Михайловна"
+"address" : "Москва, улица Маршала Савицкого, 28"
+"post_index" : "117148"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130634
+"county" : "ЮВАО"
+"district" : "Выхино-Жулебино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Киселев Федор Андреевич"
+"address" : "Москва, Ташкентская улица, 21"
+"post_index" : "109444"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ясенево ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61559
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Ясенево Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Ясенево ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Ясенево"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романова Екатерина Михайловна"
+"address" : "Москва, Новоясеневский проспект, 9"
+"post_index" : "117588"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Донского района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61556
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Донского района Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Донского района ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Донской"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Пикулевич Александр Александрович"
+"address" : "Москва, 5-й Донской проезд, 15"
+"post_index" : "119334"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Зябликово ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61557
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Зябликово Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Зябликово ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Зябликово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Герасимова Тамара Николаевна"
+"address" : "Москва, улица Мусы Джалиля, 21"
+"post_index" : "115580"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Обручевского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61558
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Обручевского района Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Обручевского района ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Обручевский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Куров Григорий Валентинович"
+"address" : "Москва, Ленинский проспект, 103"
+"post_index" : "119421"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Тверского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61554
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Тверского района Центрального административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Тверского района ЦАО города Москвы""
+"county" : "ЦАО"
+"district" : "Тверской"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Леонова Татьяна Юрьевна"
+"address" : "Москва, Настасьинский переулок, 7"
+"post_index" : "127006"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Якиманка ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61555
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Якиманка Центрального административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Якиманка ЦАО города Москвы""
+"county" : "ЦАО"
+"district" : "Якиманка"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Грачева Лилия Олеговна"
+"address" : "Москва, Якиманский переулок, 6"
+"post_index" : "119049"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 2's proxy: 18.140.1.108:8080
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Роговское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61552
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Роговское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Роговское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Рогово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Юбилейная улица, 1а"
+"post_index" : "108835"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 3's proxy: 35.237.32.72:3128
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Щаповское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61553
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Щаповское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Щаповское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Щапово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 1"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ ГО Троицк ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61548
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг городского округа Троицк Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ ГО Троицк ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Троицк"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Турченкова Екатерина Викторовна"
+"address" : "Москва, 1-я Лазурная улица, 4"
+"post_index" : "108841"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Вороновское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61549
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Вороновское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Вороновское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Вороново (село)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 31"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Киевский ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61550
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Киевский Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Киевский ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Киевский (поселение)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, поселение Киевский, 24"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Новофедоровское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61551
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Новофедоровское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Новофедоровское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Яковлевское (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 24"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Головинского района САО города Москвы", src_url: https://gogov.ru/mfc/msk/m61545
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Головинского района Северного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Головинского района САО города Москвы""
+"county" : "САО"
+"district" : "Головинский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Мизиев Залим Александрович"
+"address" : "Москва, Головинское шоссе, 5"
+"post_index" : "125212"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Лосиноостровского района СВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61546
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Лосиноостровского района Северо-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Лосиноостровского района СВАО города Москвы""
+"county" : "СВАО"
+"district" : "Лосиноостровский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Прокофьева Ольга Борисовна"
+"address" : "Москва, Изумрудная улица, 18"
+"post_index" : "129346"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Митино СЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61547
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Митино Северо-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Митино СЗАО города Москвы""
+"county" : "СЗАО"
+"district" : "Митино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Храпа Александр Анатольевич"
+"address" : "Москва, Новотушинский проезд, 10"
+"post_index" : "125464"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Мосрентген НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61541
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Мосрентген Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Мосрентген НАО города Москвы""
+"county" : "НАО"
+"district" : "завода Мосрентген (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 32"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Рязановское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61542
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Рязановское Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Рязановское НАО города Москвы""
+"county" : "НАО"
+"district" : "фабрики имени 1 Мая (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 1"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник, четверг: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Сосенское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61543
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Сосенское Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Сосенское НАО города Москвы""
+"county" : "НАО"
+"district" : "Газопровод (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 17"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник, четверг: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Филимонковское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61544
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Филимонковское Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Филимонковское НАО города Москвы""
+"county" : "НАО"
+"district" : "Верхнее Валуево (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 60"
+"operating_mode" : "
+четверг: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Московский НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61540
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Московский Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Московский НАО города Москвы""
+"county" : "НАО"
+"district" : "Московский (поселение)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Реймер Ирина Викторовна"
+"address" : "Москва, поселение Московский, 3-й микрорайон, 21"
+"post_index" : "108811"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Десеновское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61538
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Десеновское Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Десеновское НАО города Москвы""
+"county" : "НАО"
+"district" : "Десеновское (поселение)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, поселение Десеновское, 2-я Нововатутинская улица, 1"
+"post_index" : "108818"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 4's proxy: 103.246.249.47:8080
+ProxySwitchRequest: switched to 5's proxy: 36.83.71.110:3128
+ProxySwitchRequest: switched to 6's proxy: 190.196.15.43:3128
+ProxySwitchRequest: switched to 7's proxy: 138.201.223.250:31288
+ProxySwitchRequest: switched to 8's proxy: 46.225.242.246:1080
+ProxySwitchRequest: switched to 9's proxy: 138.128.117.162:80
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Кокошкино НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61539
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Кокошкино Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Кокошкино НАО города Москвы""
+"county" : "НАО"
+"district" : "Кокошкино (поселение)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, поселение Кокошкино, Дачная улица, 7а"
+"post_index" : "108804"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Сокольники ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61534
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Сокольники Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Сокольники ВАО города Москвы""
+"county" : "ВАО"
+"district" : "Сокольники"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Акинфиев Кирилл Борисович"
+"address" : "Москва, улица Стромынка, 2"
+"post_index" : "107014"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Дорогомилово ЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61535
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Дорогомилово Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Дорогомилово ЗАО города Москвы""
+"county" : "ЗАО"
+"district" : "Дорогомилово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Есина Ольга Викторовна"
+"address" : "Москва, площадь Киевского вокзала, 2"
+"post_index" : "121059"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ ГО Щербинка НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61536
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг городского округа Щербинка Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ ГО Щербинка НАО города Москвы""
+"county" : "НАО"
+"district" : "Щербинка"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Высотная улица, 5"
+"post_index" : "108851"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник, четверг: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Воскресенское НАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61537
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Воскресенское Новомосковского административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Воскресенское НАО города Москвы""
+"county" : "НАО"
+"district" : "подсобного хозяйства Воскресенское (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 28а"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Преображенское ВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61533
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Преображенское Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Преображенское ВАО города Москвы""
+"county" : "ВАО"
+"district" : "Преображенское"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Плахтюрина Татьяна Семеновна"
+"address" : "Москва, Большая Черкизовская улица, 5, корпус 8"
+"post_index" : "107061"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll/mfc
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Черемушки ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27682
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Черемушки Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Черемушки ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Черемушки"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Кузнецов Максим Сергеевич"
+"address" : "Москва, Новочеремушкинская улица, 55, корпус 2"
+"post_index" : "117418"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll/mfc
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll/mfc
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Южное Бутово ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27683
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Южное Бутово Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Южное Бутово ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Южное Бутово"
+"email" : "['brovkoen@social.mos.ru']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Бровко Екатерина Николаевна"
+"address" : "Москва, улица Горчакова, 11"
+"post_index" : "117042"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll/mfc
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Коньково ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27678
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Коньково Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Коньково ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Коньково"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Ипатьев Виктор Николаевич"
+"address" : "Москва, улица Академика Волгина, 25, корпус 1"
+"post_index" : "117437"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Котловка ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27679
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Котловка Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Котловка ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Котловка"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Огурцова Оксана Александровна"
+"address" : "Москва, Нахимовский проспект, 25"
+"post_index" : "117209"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 10's proxy: 185.177.57.16:8080
+ProxySwitchRequest: switched to 11's proxy: 119.192.195.83:8080
+ProxySwitchRequest: switched to 12's proxy: 205.202.253.120:8080
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Северное Бутово ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27680
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Северное Бутово Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Северное Бутово ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Северное Бутово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Архарова Ольга Петровна"
+"address" : "Москва, Куликовская улица, 6"
+"post_index" : "117628"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Теплый Стан ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27681
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Теплый Стан Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Теплый Стан ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Теплый Стан"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Московская Виктория Михайловна"
+"address" : "Москва, улица Академика Варги, 26а"
+"post_index" : "117133"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Южнопортового района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27673
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Южнопортового района Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Южнопортового района ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Южнопортовый"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Боровик Александр Иванович"
+"address" : "Москва, 3-й Крутицкий переулок, 11"
+"post_index" : "109044"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Академического района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27674
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Академического района Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Академического района ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Академический"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Елисеева Елена Валерьевна"
+"address" : "Москва, Новочеремушкинская улица, 23, корпус 5"
+"post_index" : "117218"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Гагаринского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27675
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Гагаринского района Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Гагаринского района ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Гагаринский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Миронов Кирилл Владимирович"
+"address" : "Москва, улица Вавилова, 81, корпус 1"
+"post_index" : "117335"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Ломоносовского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27676
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Ломоносовского района Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Ломоносовского района ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Ломоносовский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Трушина Елена Николаевна"
+"address" : "Москва, улица Гарибальди, 6, корпус 1"
+"post_index" : "119313"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Зюзино ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27677
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Зюзино Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Зюзино ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Зюзино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Айвазян Артем Артурович"
+"address" : "Москва, Одесская улица, 21/29"
+"post_index" : "117638"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Некрасовка ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27669
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Некрасовка Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Некрасовка ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Некрасовка"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Лесников Александр Юрьевич"
+"address" : "Москва, улица Маресьева, 1"
+"post_index" : "111674"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Печатники ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27670
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Печатники Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Печатники ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Печатники"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Соболева Марина Викторовна"
+"address" : "Москва, Шоссейная улица, 86"
+"post_index" : "109383"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Текстильщики ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27671
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Текстильщики Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Текстильщики ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Текстильщики"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романова Нина Михайловна"
+"address" : "Москва, квартал Волжский бульвар, 95, корпус 2"
+"post_index" : "109125"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Рязанского района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27672
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Рязанского района Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Рязанского района ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Рязанский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Акмуратова Светлана Васильевна"
+"address" : "Москва, 1-я Новокузьминская улица, 10"
+"post_index" : "109377"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Капотня ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27664
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Капотня Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Капотня ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Капотня"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Скороспелова Наталья Николаевна"
+"address" : "Москва, 2-й квартал Капотни, 22"
+"post_index" : "109429"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Кузьминки ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27665
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Кузьминки Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Кузьминки ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Кузьминки"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Рабешко Татьяна Юрьевна"
+"address" : "Москва, Волжский бульвар, 41, корпус 3"
+"post_index" : "109462"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 13's proxy: 196.37.143.202:8080
+ProxySwitchRequest: switched to 14's proxy: 34.253.225.235:8080
+ProxySwitchRequest: switched to 15's proxy: 70.37.111.187:80
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Люблино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27667
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Люблино Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Люблино ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Люблино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Грудина Екатерина Анатольевна"
+"address" : "Москва, Люблинская улица, 53"
+"post_index" : "109387"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Марьино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27668
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Марьино Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Марьино ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Марьино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Волошенинова Ольга Владимировна"
+"address" : "Москва, Совхозная улица, 41"
+"post_index" : "109386"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ районов Нижегородский и Лефортово района ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27662
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг районов Нижегородский и Лефортово Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ районов Нижегородский и Лефортово района ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Лефортово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Глущенко Кирилл Андреевич"
+"address" : "Москва, проезд Завода Серп и Молот, 10"
+"post_index" : "111250"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Выхино-Жулебино ЮВАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27663
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Выхино-Жулебино Юго-Восточного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Выхино-Жулебино ЮВАО города Москвы""
+"county" : "ЮВАО"
+"district" : "Выхино-Жулебино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Киселев Федор Андреевич"
+"address" : "Москва, Жулебинский бульвар, 25"
+"post_index" : "109156"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Северное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27659
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Чертаново Северное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Чертаново Северное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Чертаново Северное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Зайцева Лариса Александровна"
+"address" : "Москва, Варшавское шоссе, 128, корпус 2"
+"post_index" : "117587"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Центральное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27660
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Чертаново Центральное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Чертаново Центральное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Чертаново Центральное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Попова Елена Владимировна"
+"address" : "Москва, Россошанский проезд, 4б"
+"post_index" : "117535"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Чертаново Южное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27661
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Чертаново Южное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Чертаново Южное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Чертаново Южное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Горбачева Елена Анатольевна"
+"address" : "Москва, Россошанская улица, 4, корпус 2"
+"post_index" : "117535"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Нагатинский Затон ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27655
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Нагатинский Затон Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Нагатинский Затон ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Нагатинский Затон"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Коткова Елена Юрьевна"
+"address" : "Москва, Нагатинская улица, 27"
+"post_index" : "115533"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Орехово-Борисово Северное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27656
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Орехово-Борисово Северное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Орехово-Борисово Северное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Орехово-Борисово Северное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Мареев Павел Евгеньевич"
+"address" : "Москва, Ясеневая улица, 8"
+"post_index" : "115582"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Орехово-Борисово Южное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27657
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Орехово-Борисово Южное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Орехово-Борисово Южное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Орехово-Борисово Южное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романов Василий Юрьевич"
+"address" : "Москва, Каширское шоссе, 144, корпус 3"
+"post_index" : "115561"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Царицыно ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27658
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Царицыно Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Царицыно ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Царицыно"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Рейтенбах Наталья Александровна"
+"address" : "Москва, улица Медиков, 1/1, корпус 3"
+"post_index" : "115304"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Нагорного района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27649
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Нагорного района Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Нагорного района ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Нагатино-Садовники"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Некрасова Надежда Александровна"
+"address" : "Москва, Варшавское шоссе, 47, корпус 4"
+"post_index" : "115230"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Бирюлево Восточное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27650
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Бирюлево Восточное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Бирюлево Восточное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Бирюлево Восточное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Триандафилов Игорь Николаевич"
+"address" : "Москва, Загорьевская улица, 10, корпус 4"
+"post_index" : "115598"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Бирюлево Западное ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m27651
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Бирюлево Западное Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Бирюлево Западное ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Бирюлево Западное"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Орлова Евгения Николаевна"
+"address" : "Москва, Востряковский проезд, 22б"
+"post_index" : "117403"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 16's proxy: 62.141.86.173:8080
+ProxySwitchRequest: switched to 17's proxy: 95.168.185.183:8080
+ProxySwitchRequest: switched to 18's proxy: 167.71.161.102:8080
+ProxySwitchRequest: switched to 19's proxy: 200.255.122.174:8080

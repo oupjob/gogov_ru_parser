@@ -1,0 +1,103 @@
+INFO:Started Parser, base dpartmemt type (region list) URL: https://gogov.ru/mfc
+INFO:
+Database settings:
+{
+    "engine": "mysql+mysqlconnector",
+    "user": "admin",
+    "host": "localhost",
+    "port": "3306",
+    "password": "multiC",
+    "db_name": "gogov_ru"
+}
+INFO:
+HTTPS Proxy List:
+['119.161.78.100:3128', '68.183.209.107:3128', '185.132.178.210:8080', '54.39.77.226:3128']
+INFO:Starting: parsing region list from URL: "https://gogov.ru/mfc"
+DEBUG:Starting new HTTPS connection (1): gogov.ru:443
+DEBUG:https://gogov.ru:443 "GET /mfc HTTP/1.1" 200 None
+ERROR:Could'nt get region url of list item number 1
+ERROR:Could'nt get region url of list item number 2
+ERROR:Could'nt get region url of list item number 3
+ERROR:Could'nt get region url of list item number 4
+ERROR:Could'nt get region url of list item number 5
+ERROR:Could'nt get region url of list item number 6
+ERROR:Could'nt get region url of list item number 7
+ERROR:Could'nt get region url of list item number 8
+ERROR:Could'nt get region url of list item number 9
+ERROR:Could'nt get region url of list item number 10
+ERROR:Could'nt get region url of list item number 11
+ERROR:Could'nt get region url of list item number 12
+ERROR:Could'nt get region url of list item number 13
+ERROR:Could'nt get region url of list item number 14
+ERROR:Could'nt get region url of list item number 15
+ERROR:Could'nt get region url of list item number 16
+ERROR:Could'nt get region url of list item number 17
+ERROR:Could'nt get region url of list item number 18
+ERROR:Could'nt get region url of list item number 19
+ERROR:Could'nt get region url of list item number 20
+ERROR:Could'nt get region url of list item number 21
+ERROR:Could'nt get region url of list item number 22
+ERROR:Could'nt get region url of list item number 23
+ERROR:Could'nt get region url of list item number 24
+ERROR:Could'nt get region url of list item number 25
+ERROR:Could'nt get region url of list item number 26
+ERROR:Could'nt get region url of list item number 27
+ERROR:Could'nt get region url of list item number 28
+ERROR:Could'nt get region url of list item number 29
+ERROR:Could'nt get region url of list item number 30
+ERROR:Could'nt get region url of list item number 31
+ERROR:Could'nt get region url of list item number 32
+ERROR:Could'nt get region url of list item number 33
+ERROR:Could'nt get region url of list item number 34
+ERROR:Could'nt get region url of list item number 35
+ERROR:Could'nt get region url of list item number 36
+ERROR:Could'nt get region url of list item number 37
+ERROR:Could'nt get region url of list item number 38
+ERROR:Could'nt get region url of list item number 39
+ERROR:Could'nt get region url of list item number 40
+ERROR:Could'nt get region url of list item number 41
+ERROR:Could'nt get region url of list item number 42
+ERROR:Could'nt get region url of list item number 43
+ERROR:Could'nt get region url of list item number 44
+ERROR:Could'nt get region url of list item number 45
+ERROR:Could'nt get region url of list item number 46
+ERROR:Could'nt get region url of list item number 47
+ERROR:Could'nt get region url of list item number 48
+ERROR:Could'nt get region url of list item number 49
+ERROR:Could'nt get region url of list item number 50
+ERROR:Could'nt get region url of list item number 51
+ERROR:Could'nt get region url of list item number 52
+ERROR:Could'nt get region url of list item number 53
+ERROR:Could'nt get region url of list item number 54
+ERROR:Could'nt get region url of list item number 55
+ERROR:Could'nt get region url of list item number 56
+ERROR:Could'nt get region url of list item number 57
+ERROR:Could'nt get region url of list item number 58
+ERROR:Could'nt get region url of list item number 59
+ERROR:Could'nt get region url of list item number 60
+ERROR:Could'nt get region url of list item number 61
+ERROR:Could'nt get region url of list item number 62
+ERROR:Could'nt get region url of list item number 63
+ERROR:Could'nt get region url of list item number 64
+ERROR:Could'nt get region url of list item number 65
+ERROR:Could'nt get region url of list item number 66
+ERROR:Could'nt get region url of list item number 67
+ERROR:Could'nt get region url of list item number 68
+ERROR:Could'nt get region url of list item number 69
+ERROR:Could'nt get region url of list item number 70
+ERROR:Could'nt get region url of list item number 71
+ERROR:Could'nt get region url of list item number 72
+ERROR:Could'nt get region url of list item number 73
+ERROR:Could'nt get region url of list item number 74
+ERROR:Could'nt get region url of list item number 75
+ERROR:Could'nt get region url of list item number 76
+ERROR:Could'nt get region url of list item number 77
+ERROR:Could'nt get region url of list item number 78
+ERROR:Could'nt get region url of list item number 79
+ERROR:Could'nt get region url of list item number 80
+ERROR:Could'nt get region url of list item number 81
+ERROR:Could'nt get region url of list item number 82
+ERROR:Could'nt get region url of list item number 83
+ERROR:Could'nt get region url of list item number 84
+ERROR:Could'nt get region url of list item number 85
+INFO:Completed: parsed 85 regions to list from URL: "https://gogov.ru/mfc"

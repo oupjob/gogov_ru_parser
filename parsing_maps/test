@@ -1,0 +1,15 @@
+{ "name": "mfc", "src_url": "https://gogov.ru/mfc", "children": 
+[
+	{ "name": "Москва", "src_url": "https://gogov.ru/msk/mfc", "children": 
+	[
+		{ "name": "Многофункциональный центр", "src_url": "https://gogov.ru/mfc/msk/m569685" },
+		{ "name": "Центр госуслуг \"Мои документы\"", "src_url": "https://gogov.ru/mfc/msk/m130635" }
+	]},
+	{ "name": "Санкт-Петербург", "src_url": "https://gogov.ru/spb/mfc", "children": 
+	[
+
+		{ "name": "Мобильный МФЦ", "src_url": "https://gogov.ru/mfc/spb/m569679" },
+		{ "name": "ГБУ ЛО \"МФЦ\"", "src_url": "https://gogov.ru/mfc/spb/m569680" }
+	]}
+]
+}

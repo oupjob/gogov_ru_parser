@@ -1,0 +1,140 @@
+{ "name": "mfc", "src_url": "https://gogov.ru/mfc", "children": 
+[
+
+	{ "name": "Москва", "src_url": "https://gogov.ru/msk/mfc", "children": 
+	[
+
+		{ "name": "Многофункциональный центр", "src_url": "https://gogov.ru/mfc/msk/m569685", 
+			"fields": {
+                "fullname": "Государственное бюджетное учреждение города Москвы \"Многофункциональный центр предоставления государственных услуг города Москвы\"",
+                "county": "ЦАО",
+                "district": "Тверской",
+                "email": [
+                                "md@mfc.mos.ru"
+                ],
+                "phone": [
+                                "+7 (495) 777-77-77"
+                ],
+                "address": "Москва, Вознесенский переулок, 22",
+                "post_index": "125009",
+                "operating_mode": "\r\nпонедельник-четверг: с 08:00 до 17:00, перерыв: с 12:00 до 12:45\r\nпятница: с 08:00 до 15:45, перерыв: с 12:00 до 12:45\r\n",
+                "website": [
+                                "http://md.mos.ru"
+                ]
+},
+			"children": [
+                {
+                                "name": "Запись на прием в МФЦ",
+                                "destination_url": "https://gogov.ru/enroll-mfc/msk",
+                                "children": []
+                },
+                {
+                                "name": "Узнать сумму пенсионного накопления",
+                                "destination_url": "https://gogov.ru/check/retirement-savings",
+                                "children": []
+                }
+]
+		},
+		{ "name": "Центр госуслуг \"Мои документы\"", "src_url": "https://gogov.ru/mfc/msk/m130635", 
+			"fields": {
+                "county": "ЮЗАО",
+                "district": "Южное Бутово",
+                "email": [
+                                "e-mail отсутствует"
+                ],
+                "phone": [
+                                "+7 (495) 777-77-77"
+                ],
+                "ceo": "Романова Екатерина Михайловна",
+                "address": "Москва, улица Маршала Савицкого, 28",
+                "post_index": "117148",
+                "operating_mode": "\r\nежедневно: с 08:00 до 20:00\r\n",
+                "website": [
+                                "http://md.mos.ru"
+                ]
+},
+			"children": [
+                {
+                                "name": "Запись на прием в МФЦ",
+                                "destination_url": "https://gogov.ru/enroll-mfc/msk",
+                                "children": []
+                },
+                {
+                                "name": "Узнать сумму пенсионного накопления",
+                                "destination_url": "https://gogov.ru/check/retirement-savings",
+                                "children": []
+                }
+]
+		}
+	]}
+	{ "name": "Санкт-Петербург", "src_url": "https://gogov.ru/spb/mfc", "children": 
+	[
+
+		{ "name": "Мобильный МФЦ", "src_url": "https://gogov.ru/mfc/spb/m569679", 
+			"fields": {
+                "fullname": "Мобильный Многофункциональный центр Приморского района Санкт-Петербурга",
+                "county": "Приморский",
+                "district": "Лисий Нос (поселок)",
+                "email": [
+                                "e-mail отсутствует"
+                ],
+                "phone": [
+                                "+7 (812) 573-90-00 (Городской Центр телефонного обслуживания)"
+                ],
+                "address": "Санкт-Петербург, поселок Лисий Нос, Морской проспект, 3",
+                "post_index": "197755",
+                "operating_mode": "\r\nвторник: с 10:00 до 16:45\r\n",
+                "website": [
+                                "https://gu.spb.ru/mfc"
+                ]
+},
+			"children": [
+                {
+                                "name": "Запись на прием в МФЦ",
+                                "destination_url": "https://gogov.ru/enroll-mfc/spb",
+                                "children": []
+                },
+                {
+                                "name": "Узнать сумму пенсионного накопления",
+                                "destination_url": "https://gogov.ru/check/retirement-savings",
+                                "children": []
+                }
+]
+		},
+		{ "name": "ГБУ ЛО \"МФЦ\"", "src_url": "https://gogov.ru/mfc/spb/m569680", 
+			"fields": {
+                "fullname": "Государственное бюджетное учреждение Ленинградской области \"Многофункциональный центр предоставления государственных и муниципальных услуг\"",
+                "shortname": "ГБУ ЛО \"МФЦ\"",
+                "county": "Центральный",
+                "email": [
+                                "press@mfc47.ru",
+                                "info@mfc47.ru"
+                ],
+                "phone": [
+                                "+7 (812) 573-90-00 (Городской Центр телефонного обслуживания)",
+                                "8 (800) 500-00-47"
+                ],
+                "ceo": "Есипов Сергей Владимирович",
+                "address": "Санкт-Петербург, проспект Бакунина, 5",
+                "post_index": "191024",
+                "operating_mode": "\r\nпонедельник-четверг: с 09:00 до 18:00\r\nпятница: с 09:00 до 17:00\r\n",
+                "website": [
+                                "https://gu.spb.ru/mfc"
+                ]
+},
+			"children": [
+                {
+                                "name": "Запись на прием в МФЦ",
+                                "destination_url": "https://gogov.ru/enroll-mfc/spb",
+                                "children": []
+                },
+                {
+                                "name": "Узнать сумму пенсионного накопления",
+                                "destination_url": "https://gogov.ru/check/retirement-savings",
+                                "children": []
+                }
+]
+		}
+	]}
+]
+}

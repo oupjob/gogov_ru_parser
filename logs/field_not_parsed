@@ -1,0 +1,449 @@
+Starting gogov.ru parsing map based parsing, base dpartmemt type (region list) URL: https://gogov.ru/mfc
+
+Database settings:
+{
+    "engine": "mysql+mysqlconnector",
+    "user": "admin",
+    "host": "localhost",
+    "port": "3306",
+    "password": "multiC",
+    "db_name": "gogov_ru"
+}
+
+HTTPS Proxy contains 89 proxies
+
+Useragent List:
+[
+    "Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 6.0.1; SM-G935S Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.36 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.27 Safari/537.36 OPR/62.0.3331.10 (Edition beta)",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.28 Safari/537.36 OPR/61.0.3298.6 (Edition developer)",
+    "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.170 (Edition Campaign 34)",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.170 (Edition Campaign 34)",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.50962 OPRGX/60.0.3255.50962",
+    "Mozilla/5.0 (Linux; U; Android 2.2.1; en-ca; LG-P505R Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.2.1; en-gb; HTC_DesireZ_A7272 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.2.1; fr-fr; HTC_DesireZ_A7272 Build/FRG83D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.2; en-sa; HTC_DesireHD_A9191 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.2; fr-lu; HTC Legend Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; de-ch; HTC Desire Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC_DesireS_S510e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; HTC_DesireS_S510e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; ko-kr; LG-LU3000 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC_Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari",
+    "Mozilla/5.0 (Linux; U; Android 2.3.3; zh-tw; HTC_Pyramid Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; T-Mobile myTouch 3G Slide Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.4; fr-fr; HTC Desire Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; HTC_IncredibleS_S710e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+    "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+]
+BaseParsingMapBasedParser: Starting: parsing map based parsing region list from URL: "https://gogov.ru/mfc"
+BaseParsingMapBasedParser: Starting: parsing map based department list parsing from URL: "https://gogov.ru/mfc", Region: "mfc"
+ProxySwitchRequest: switched to 1's proxy: 87.106.157.184:80
+ProxySwitchRequest: switched to 2's proxy: 118.137.236.87:8080
+ProxySwitchRequest: switched to 3's proxy: 76.185.16.94:54079
+ProxySwitchRequest: switched to 4's proxy: 152.32.172.150:80
+ProxySwitchRequest: switched to 5's proxy: 50.84.27.59:8080
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Многофункциональный центр, src_url: https://gogov.ru/mfc/msk/m569685
+"fullname" : "Государственное бюджетное учреждение города Москвы "Многофункциональный центр предоставления государственных услуг города Москвы""
+"county" : "ЦАО"
+"district" : "Тверской"
+"email" : "['md@mfc.mos.ru']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Вознесенский переулок, 22"
+"post_index" : "125009"
+"operating_mode" : "
+понедельник-четверг: с 08:00 до 17:00, перерыв: с 12:00 до 12:45
+пятница: с 08:00 до 15:45, перерыв: с 12:00 до 12:45
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 6's proxy: 5.196.243.198:80
+ProxySwitchRequest: switched to 7's proxy: 185.73.206.205:47196
+ProxySwitchRequest: switched to 8's proxy: 80.123.162.156:3128
+ProxySwitchRequest: switched to 9's proxy: 112.78.177.46:8080
+ProxySwitchRequest: switched to 10's proxy: 110.78.152.10:8080
+ProxySwitchRequest: switched to 11's proxy: 167.179.4.134:8080
+ProxySwitchRequest: switched to 12's proxy: 182.253.114.66:8080
+ProxySwitchRequest: switched to 13's proxy: 177.55.188.213:8080
+ProxySwitchRequest: switched to 14's proxy: 165.227.90.227:3128
+ProxySwitchRequest: switched to 15's proxy: 163.172.128.177:8811
+ProxySwitchRequest: switched to 16's proxy: 45.5.150.3:9090
+ProxySwitchRequest: switched to 17's proxy: 62.162.228.66:58960
+ProxySwitchRequest: switched to 18's proxy: 170.246.85.38:50991
+ProxySwitchRequest: switched to 19's proxy: 43.248.24.157:51166
+ProxySwitchRequest: switched to 20's proxy: 45.166.244.175:8080
+ProxySwitchRequest: switched to 21's proxy: 51.79.47.135:443
+ProxySwitchRequest: switched to 22's proxy: 202.182.57.10:8080
+ProxySwitchRequest: switched to 23's proxy: 200.32.51.179:8080
+ProxySwitchRequest: switched to 24's proxy: 85.232.248.9:8080
+ProxySwitchRequest: switched to 25's proxy: 118.175.196.234:8080
+ProxySwitchRequest: switched to 26's proxy: 202.57.47.202:50017
+ProxySwitchRequest: switched to 27's proxy: 170.247.152.163:30622
+ProxySwitchRequest: switched to 28's proxy: 39.106.35.21:3128
+ProxySwitchRequest: switched to 29's proxy: 103.247.217.226:54441
+ProxySwitchRequest: switched to 30's proxy: 190.217.28.42:8080
+ProxySwitchRequest: switched to 31's proxy: 83.171.114.92:36307
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178071
+"county" : "ТАО"
+"district" : "Красная Пахра (село)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 21"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+"coverage" : "['Михайлово-Ярцевское (поселение)']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 32's proxy: 36.89.193.73:38762
+ProxySwitchRequest: switched to 33's proxy: 62.87.239.46:3128
+ProxySwitchRequest: switched to 34's proxy: 169.255.36.48:8080
+ProxySwitchRequest: switched to 35's proxy: 171.100.102.154:30090
+ProxySwitchRequest: switched to 36's proxy: 122.152.55.195:8080
+ProxySwitchRequest: switched to 37's proxy: 51.68.172.7:3128
+ProxySwitchRequest: switched to 38's proxy: 123.200.14.238:8080
+ProxySwitchRequest: switched to 39's proxy: 92.51.20.1:8080
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178072
+"county" : "ТАО"
+"district" : "Курилово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Центральная улица, 7"
+"post_index" : "125430"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178073
+"county" : "НАО"
+"district" : "Марушкино (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, улица Липовая Аллея, 5"
+"post_index" : "108809"
+"operating_mode" : "
+понедельник: с 10:00 до 19:00, перерыв: с 13:30 до 14:15
+среда: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 40's proxy: 183.88.237.226:8080
+ProxySwitchRequest: switched to 41's proxy: 109.238.222.5:45798
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Территориально обособленное структурное подразделение МФЦ, src_url: https://gogov.ru/mfc/msk/m178074
+"county" : "НАО"
+"district" : "Крекшино (деревня)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва"
+"operating_mode" : "
+вторник: с 10:00 до 19:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 42's proxy: 85.21.240.153:8080
+ProxySwitchRequest: switched to 43's proxy: 103.250.69.233:8080
+ProxySwitchRequest: switched to 44's proxy: 36.89.8.235:8080
+ProxySwitchRequest: switched to 45's proxy: 89.188.110.196:8080
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130635
+"county" : "ЮЗАО"
+"district" : "Южное Бутово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романова Екатерина Михайловна"
+"address" : "Москва, улица Маршала Савицкого, 28"
+"post_index" : "117148"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: Центр госуслуг "Мои документы", src_url: https://gogov.ru/mfc/msk/m130634
+"county" : "ЮВАО"
+"district" : "Выхино-Жулебино"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Киселев Федор Андреевич"
+"address" : "Москва, Ташкентская улица, 21"
+"post_index" : "109444"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Ясенево ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61559
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Ясенево Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Ясенево ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Ясенево"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Романова Екатерина Михайловна"
+"address" : "Москва, Новоясеневский проспект, 9"
+"post_index" : "117588"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ERROR: BaseDepartmentParser: Field not parsed: ['address-ex'], ['строение 8'] (https://gogov.ru/mfc/msk/m61556)
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Донского района ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61556
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Донского района Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Донского района ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Донской"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Пикулевич Александр Александрович"
+"address" : "Москва, 5-й Донской проезд, 15"
+"post_index" : "119334"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Зябликово ЮАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61557
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Зябликово Южного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Зябликово ЮАО города Москвы""
+"county" : "ЮАО"
+"district" : "Зябликово"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Герасимова Тамара Николаевна"
+"address" : "Москва, улица Мусы Джалиля, 21"
+"post_index" : "115580"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 46's proxy: 45.236.171.68:999
+ProxySwitchRequest: switched to 47's proxy: 1.179.147.5:39330
+ProxySwitchRequest: switched to 48's proxy: 155.0.181.254:61936
+ProxySwitchRequest: switched to 49's proxy: 101.109.255.17:30125
+ProxySwitchRequest: switched to 50's proxy: 74.105.3.56:8080
+ProxySwitchRequest: switched to 51's proxy: 173.44.34.106:34276
+ProxySwitchRequest: switched to 52's proxy: 36.89.165.89:34030
+ProxySwitchRequest: switched to 53's proxy: 62.210.209.94:8118
+ProxySwitchRequest: switched to 54's proxy: 103.75.163.25:8080
+ProxySwitchRequest: switched to 55's proxy: 116.62.189.215:3128
+ProxySwitchRequest: switched to 56's proxy: 99.79.116.201:80
+ProxySwitchRequest: switched to 57's proxy: 176.123.61.238:3128
+ProxySwitchRequest: switched to 58's proxy: 103.94.0.181:53439
+ProxySwitchRequest: switched to 59's proxy: 118.31.58.251:3128
+ProxySwitchRequest: switched to 60's proxy: 185.49.248.44:8000
+ProxySwitchRequest: switched to 61's proxy: 176.35.250.108:8080
+ProxySwitchRequest: switched to 62's proxy: 187.189.73.66:9991
+ProxySwitchRequest: switched to 63's proxy: 207.180.240.231:8000
+ProxySwitchRequest: switched to 64's proxy: 85.238.167.170:51904
+ProxySwitchRequest: switched to 65's proxy: 47.107.154.224:3128
+ProxySwitchRequest: switched to 66's proxy: 210.213.59.84:58945
+ProxySwitchRequest: switched to 67's proxy: 14.207.120.169:8080
+ProxySwitchRequest: switched to 68's proxy: 188.242.5.172:8080
+ProxySwitchRequest: switched to 69's proxy: 170.210.236.1:57182
+ProxySwitchRequest: switched to 70's proxy: 83.143.31.82:41135
+ProxySwitchRequest: switched to 71's proxy: 47.75.186.127:80
+ProxySwitchRequest: switched to 72's proxy: 85.112.70.149:8080
+ProxySwitchRequest: switched to 73's proxy: 183.89.88.123:8080
+ProxySwitchRequest: switched to 74's proxy: 170.233.235.249:3128
+ProxySwitchRequest: switched to 75's proxy: 208.99.242.119:80
+ProxySwitchRequest: switched to 76's proxy: 27.72.29.159:8080
+ProxySwitchRequest: switched to 77's proxy: 93.99.176.84:3128
+ProxySwitchRequest: switched to 78's proxy: 35.247.250.167:80
+ProxySwitchRequest: switched to 79's proxy: 161.132.114.19:999
+ProxySwitchRequest: switched to 80's proxy: 203.201.172.92:3128
+ProxySwitchRequest: switched to 81's proxy: 62.173.145.48:3128
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Обручевского района ЮЗАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61558
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Обручевского района Юго-Западного административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Обручевского района ЮЗАО города Москвы""
+"county" : "ЮЗАО"
+"district" : "Обручевский"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Куров Григорий Валентинович"
+"address" : "Москва, Ленинский проспект, 103"
+"post_index" : "119421"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ Тверского района ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61554
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг Тверского района Центрального административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ Тверского района ЦАО города Москвы""
+"county" : "ЦАО"
+"district" : "Тверской"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Леонова Татьяна Юрьевна"
+"address" : "Москва, Настасьинский переулок, 7"
+"post_index" : "127006"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ERROR: BaseDepartmentParser: Field not parsed: ['address-ex'], ['строение 1'] (https://gogov.ru/mfc/msk/m61555)
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ района Якиманка ЦАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61555
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг района Якиманка Центрального административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ района Якиманка ЦАО города Москвы""
+"county" : "ЦАО"
+"district" : "Якиманка"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"ceo" : "Грачева Лилия Олеговна"
+"address" : "Москва, Якиманский переулок, 6"
+"post_index" : "119049"
+"operating_mode" : "
+ежедневно: с 08:00 до 20:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Роговское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61552
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Роговское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Роговское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Рогово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, Юбилейная улица, 1а"
+"post_index" : "108835"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00, перерыв: с 13:30 до 14:15
+вторник: с 09:00 до 18:00, перерыв: с 13:30 до 14:15
+пятница: с 08:00 до 15:45, перерыв: с 13:30 до 14:15
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+BaseDepartmentParser: Parsed Service Tree Item: 
+ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+BaseDepartmentParser: Parsed full data of Department Tree Item: 
+DepartmentTreeItem: name: ГБУ "МФЦ поселения Щаповское ТАО города Москвы", src_url: https://gogov.ru/mfc/msk/m61553
+"fullname" : "Государственное бюджетное учреждение "Многофункциональный центр предоставления государственных и муниципальных услуг поселения Щаповское Троицкого административного округа города Москвы""
+"shortname" : "ГБУ "МФЦ поселения Щаповское ТАО города Москвы""
+"county" : "ТАО"
+"district" : "Щапово (поселок)"
+"email" : "['e-mail отсутствует']"
+"phone" : "['+7 (495) 777-77-77']"
+"address" : "Москва, 1"
+"operating_mode" : "
+понедельник, среда: с 11:00 до 20:00
+вторник: с 09:00 до 18:00
+пятница: с 08:00 до 15:45
+суббота: с 10:00 до 16:00
+"
+"website" : "['http://md.mos.ru']"
+  ServiceTreeItem: name: Запись на прием в МФЦ, destination_url: https://gogov.ru/enroll-mfc/msk
+  ServiceTreeItem: name: Узнать сумму пенсионного накопления, destination_url: https://gogov.ru/check/retirement-savings
+ProxySwitchRequest: switched to 82's proxy: 68.183.169.43:3128
+ProxySwitchRequest: switched to 83's proxy: 103.84.143.88:8080
+ProxySwitchRequest: switched to 84's proxy: 68.183.155.113:8080
+ProxySwitchRequest: switched to 85's proxy: 182.253.86.186:8080
+ProxySwitchRequest: switched to 86's proxy: 163.172.205.110:3128
+ProxySwitchRequest: switched to 87's proxy: 187.11.216.80:8080
+ProxySwitchRequest: switched to 88's proxy: 103.25.209.118:8080
+ProxySwitchRequest: Proxy list is over
+Save result? (y\n) > 
